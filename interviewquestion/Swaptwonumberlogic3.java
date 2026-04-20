@@ -1,0 +1,18 @@
+package com.interviewquestion;
+
+public class Swaptwonumberlogic3 {
+
+	public static void main(String[] args) {
+		
+		int a=10, b=20;		
+		System.out.println("Before swapping two number"+ a+"  "+b);
+		
+		//Logic 3 -- using * & / if the value is not 0
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		
+		System.out.println("After swapping two number"+ a+"  "+b);
+	}
+
+}
